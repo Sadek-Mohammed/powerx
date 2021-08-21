@@ -1,0 +1,86 @@
+/////Navbar
+.navbar {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__left {
+    height: 8rem;
+  }
+  &__logo {
+    width: 100%;
+    height: 100%;
+    &--container {
+      height: 100%;
+    }
+  }
+  &__right {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+  }
+  &__item {
+    padding: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+#last-nav-item {
+  padding-right: 4rem;
+}
+//Header
+.header {
+}
+//text
+.text {
+  text-transform: uppercase;
+  &__1 {
+  }
+  &__2 {
+  }
+  &__3 {
+  }
+}
+//Project
+.project {
+  font-size: 2rem;
+  &__container {
+  }
+  &__text {
+    width: 50%;
+  }
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  &__item {
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 5rem;
+    border: 1px solid #000;
+    margin: 1rem;
+    box-shadow: 5px 2px #000;
+  }
+  &__image {
+    width: 30rem;
+    height: 30rem;
+    &--container {
+    }
+  }
+  &__description {
+    font-size: 1.5rem;
+  }
+}
+
+.footer {
+  font-size: 1.2rem;
+}
